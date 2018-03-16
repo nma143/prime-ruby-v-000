@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
 
-  return false if num < 1
+  return false if num < 2
 
   if num/2 < 3
     num_range = [2]
