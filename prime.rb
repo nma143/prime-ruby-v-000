@@ -9,8 +9,8 @@ def prime?(num)
   #puts num_range
   num_range.each do |x|
     if num.abs % x == 0
-      return true
+      return false
     end
   end
-    return false
+    return true
 end
