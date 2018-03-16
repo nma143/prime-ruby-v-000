@@ -6,7 +6,7 @@ def prime?(num)
   else
     num_range = (2..num.abs/2).to_a
   end
-  puts num_range
+  #puts num_range
   num_range.each do |x|
     if num.abs % x == 0
       return true
