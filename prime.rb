@@ -4,7 +4,7 @@ def prime?(num)
   puts num_range
 
   num_range.each do |x|
-    if num % x == 0
+    if num % x
       return true
     end
   end
