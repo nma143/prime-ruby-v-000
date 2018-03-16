@@ -1,10 +1,11 @@
 # Add  code here!
 def prime?(num)
 
-  if num/2 < 3
+  
+  if num.abs/2 < 3
     num_range = [2]
   else
-    num_range = 2..num/2
+    num_range = 2..num.abs/2
   end
 
   num_range.each do |x|
