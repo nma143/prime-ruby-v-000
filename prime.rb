@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
 
-  
+
   if num.abs/2 < 3
     num_range = [2]
   else
