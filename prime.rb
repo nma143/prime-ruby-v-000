@@ -8,7 +8,7 @@ def prime?(num)
   end
   #puts num_range
   num_range.each do |x|
-    if (num.abs % x == 0 && num.abs != x)
+    if (num.abs % x == 0 && num.abs > x)
       return false
     end
   end
