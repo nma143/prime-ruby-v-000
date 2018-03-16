@@ -8,7 +8,6 @@ def prime?(num)
   else
     num_range = (2..num/2).to_a
   end
-  puts num_range
   num_range.each do |x|
     if (num % x == 0 && num > x)
       return false
